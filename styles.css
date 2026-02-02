@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    border-bottom: 1px solid #c9a24d;
+}
+
+.logo-img {
+    height: 45px;
+}
+
+/* INICIO */
+.inicio {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.logo-hero {
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+.foto-perfil {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #c9a24d;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #c9a24d;
+    margin-bottom: 10px;
+}
+
+.frase {
+    font-size: 18px;
+}
+
+.btn {
+    margin-top: 25px;
+    padding: 12px 30px;
+    background: #c9a24d;
+    color: #000;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SECCIONES */
+.seccion {
+    padding: 70px 10%;
+    text-align: center;
+}
+
+.fondo {
+    background: #111;
+}
+
+h2 {
+    color: #c9a24d;
+    margin-bottom: 20px;
+}
+
+/* PROYECTOS */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    border: 1px solid #c9a24d;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.card span {
+    color: #c9a24d;
+}
+
+/* HABILIDADES */
+.habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.habilidades span {
+    border: 1px solid #c9a24d;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+/* CONTACTO */
+.redes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.redes a {
+    background: #c9a24d;
+    color: #000;
+    padding: 14px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.usuario {
+    margin-top: 20px;
+    color: #c9a24d;
+    letter-spacing: 2px;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    border-top: 1px solid #c9a24d;
+    text-align: center;
+}
